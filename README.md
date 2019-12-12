@@ -37,7 +37,7 @@ It supports the customization of:
 - `DBNAME`: name of the restored database (default: `sampledb`)
 - `DBUSER`: user name (and also owner) of the restored database (default: `someuser`)
 - `DBUSER_PWD`: password of `DBUSER` (default: `P@ssw0rd`)
-- `DB_DUMP_FILE`: db dump file name (default: `sample-dumps/pagila.tar`). Please be aware that only binary format dump is supported
+- `DB_DUMP_FILE`: db dump file name (default: `sample-dumps/example.pg`). Please be aware that only binary format dump is supported
 
 Therefore, a full version docker build command with all parameters provided would be:
 
